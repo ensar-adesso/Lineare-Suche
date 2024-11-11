@@ -1,1 +1,1 @@
-![Nasi Schneider Diagramm]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://raw.githubusercontent.com/ensar-adesso/Lineare-Suche/refs/heads/main/nasi-schneider.png))
+![Nasi Schneider Diagramm](https://raw.githubusercontent.com/ensar-adesso/Lineare-Suche/refs/heads/main/nasi-schneider.png)
