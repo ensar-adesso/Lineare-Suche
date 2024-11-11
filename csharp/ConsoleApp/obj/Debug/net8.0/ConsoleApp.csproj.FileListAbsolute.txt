@@ -12,3 +12,4 @@ C:\Users\edautovic\Desktop\Lineare Suche\csharp\ConsoleApp\obj\Debug\net8.0\refi
 C:\Users\edautovic\Desktop\Lineare Suche\csharp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.pdb
 C:\Users\edautovic\Desktop\Lineare Suche\csharp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.genruntimeconfig.cache
 C:\Users\edautovic\Desktop\Lineare Suche\csharp\ConsoleApp\obj\Debug\net8.0\ref\ConsoleApp.dll
+C:\Users\edautovic\Desktop\Lineare Suche\csharp\ConsoleApp\obj\Debug\net8.0\ConsoleApp.sourcelink.json

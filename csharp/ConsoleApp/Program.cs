@@ -9,19 +9,43 @@ public class Program
         Console.WriteLine("Enter the number you want to search for: ");
         int number = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine(search(number));
-
+        Console.WriteLine(lineare_serach(number));
+        Console.WriteLine(binary_search(number, 0, Numbers.Length - 1));
     }
 
-    public static String search(int number)
+    private static String lineare_serach(int number)
     {
         for (int i = 0; i < Numbers.Length; i++)
         {
             if (Numbers[i] == number)
             {
-                return i + " is the number you are looking for";
+                return Numbers[i] + " is the number you are looking for and it is at index " + i;
             }
         }
         return "Number not found";
+    }
+
+    private static String binary_search(int value, int start, int end)
+    {
+        if (start > end)
+        {
+            return "Number not found";
+        }
+
+        int middle = (start + end) / 2;
+
+        if (Numbers[middle] == value)
+        {
+            return Numbers[middle] + " is the number you are looking for and it is at index " + middle;
+        }
+
+        if (value < Numbers[middle])
+        {
+            return binary_search(value, start, middle - 1);
+        }
+        else
+        {
+            return binary_search(value, middle + 1, end);
+        }
     }
 }

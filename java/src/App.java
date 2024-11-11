@@ -27,11 +27,11 @@ public class App {
     }
 
     private static String binary_search(int value, int start, int end) {
-        int middle = (start + end) / 2;
-        
         if (start > end) {
             return "Number not found";
         }
+        
+        int middle = (start + end) / 2;
 
         if (value == Numbers[middle]) {
             return Numbers[middle] + " is the number you are looking for and it is at index " + middle;
